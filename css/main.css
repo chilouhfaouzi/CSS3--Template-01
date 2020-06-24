@@ -1,0 +1,406 @@
+/* Start main rules */
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width:70%;
+    margin:auto;
+    
+}
+
+h2,h3,h4,h5,h6{
+    color: #6e6e6ef2;
+    
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    
+}
+p{
+    color: #434343ab;
+    line-height: 1.5;
+}
+
+.padding-l-25{
+    padding-left: 25px;
+}
+.padding-r-25{
+    padding-right: 25px;
+}
+ 
+/* End main rules */
+
+/*Start Header */
+.Header .slider{
+ /*   background-color: #434343;*/
+    background: url('../images/header.png') no-repeat;
+    background-size: cover ;
+    height: 700px;
+
+}
+.Header h2{
+    color: white;
+}
+.slider .Motive{
+    margin: auto;
+    text-align: center;
+    padding:5px 0;;
+    width: 527px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.slider .learn-more{
+    margin: 30px auto;
+    border: 2px solid white;
+    color: #FFF;
+    width: 180px;
+    padding: 5px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.Header .navbar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    
+}
+.Header .navbar h2{
+float: left;
+padding-top: 5px; /*bacj=h iji f meme line dyal list */
+font-family:  Verdana;
+font-weight: 500;
+font-size: 21px;
+text-transform: uppercase;
+
+
+}
+.logonav{
+    background-color: rgb(81, 85, 85);;
+    padding: 4px 6px;
+    margin-right: 12px;
+    border-radius: 1px;
+    
+}
+.Header .navbar ul{
+    
+    float: right;
+    padding-left: 0;
+    overflow: hidden;
+   
+
+}
+.Header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.Header .navbar ul li,.Header .navbar h2{
+cursor: pointer;
+
+}
+.Header .navbar ul li:hover,.Header .navbar h2:hover{
+    color: #2ecc71;
+}
+
+/*End Header */
+
+/*Start  features */
+.features{
+    overflow: hidden;
+}
+.feat{
+    float: left;
+    width: 32%;
+    margin: 60px 0;
+    
+}
+
+.feat p{
+    line-height: 1.5;
+    padding-right: 5px;
+    
+}
+.feat:not(:first-of-type){
+    margin-left: 2%;
+}
+/*End features */
+/* Start ABout Me */ 
+.about-me{
+    background-color: #f2f2f2;
+    overflow: hidden; 
+    padding-right: 5px;  
+}
+.about-image{
+    float: left;
+    width: 35%;
+    height: 600px;
+}
+
+.about-image img{
+    width: 100%;
+    height: 750px;
+}
+.about-info{
+    float: left;
+    width: 65%;
+    padding: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.about-info h2{
+    color: #434343;
+}
+.about-info p{
+    margin-top: 25px;
+}
+.about-competence{
+    margin: 35px 0;
+    padding-bottom: 25px;
+}
+.about-competence .web{
+    float: left;
+    width: 50%;
+}
+.web-design .icon-web ,.graphic-design .icon-graphic,.online-marketing .icon-online,.seo .icon-seo{
+    float: left;
+    width: 12%;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+.web-info{
+    float: left;
+    width: 80%;
+}
+.web-design .icon-web{
+    content: url('webds.svg');
+}
+/*.web-design .icon-web{
+    content: "\f7a2";
+}*/
+
+.graphic-design .icon-graphic{
+    content: url('graphicds.svg');
+
+}
+.online-marketing .icon-online{
+    content: url('online.svg');
+}
+.seo .icon-seo{
+    content: url('seo.svg');
+}
+/*End ABout Me */ 
+
+/* Start My Skills */
+.myskills{
+padding-top: 30px;
+padding-bottom: 50px;
+}
+.myskills .skills , .myskills .skills-progress{
+    flex: 0 0 50%;
+}
+
+.skills-btn ,.dow-resume{
+    margin: 30px 0;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 8px 15px;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;   
+    font-weight: 600; 
+}
+.skills-btn{
+    background-color: #FFF;
+}
+.dow-resume{
+    margin-left: 40%;
+}
+
+
+
+
+.bar{
+    height: 25px;
+    background-color: #f2f2f2;
+}
+.photoshop-progress ,.illustrator-progress,.html-css-progress,.php-mysql-progress{
+    background-color: #2ecc71;
+    text-align: right;
+    color: white;
+    height: 100%;
+    padding-right: 8px;
+    padding-top:3px;
+}
+.photoshop-progress{
+    width: 90%;
+}
+.illustrator-progress{
+    width: 80%;
+}
+.html-css-progres{
+    width: 90%;
+}
+.php-mysql-progress{
+    width: 70%;
+}
+/* End My Skills */
+/* Start Resume*/
+.resume{
+    padding: 40px 0;
+    background-color: #f2f2f2;
+}
+
+.motalat{
+    flex:0 0 4%;
+}
+.motalat::before{
+border: 18px solid #f2f2f2;
+box-sizing: border-box;
+content: '';
+display: inline-block;
+position: relative;
+top: -25px;
+transition: all .3s ease;
+transform: rotate(45deg);
+overflow: hidden;
+width: 25px;
+}
+
+/* End Resume*/
+/* Start Education And Diploma */
+.education{
+    padding: 30px 0;
+}
+.myeducation ,.diplom{
+    float: left;
+    width: 50%;
+}
+.myeducation{
+}
+.diplom{
+    margin: 30px 0;
+}
+.dipl-btn{
+    background-color: #2ecc71;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.education hr{
+    color: #82828247;
+    margin: 30px 0;
+}
+
+/* End Education And Diploma */
+/*start testimonials */
+.testmonials{
+    background-color: #f2f2f2;
+    padding: 45px 0;
+}
+.testmonials ul{
+    padding-left: 0;
+    padding-right: 10px; /*pour bien positione au dessus de h3 */
+}
+.testmonials h5{
+    margin: 25px 0;
+}
+.testmonials li:first-of-type ,.testmonials li:not(:first-of-type){
+    width: 8px;
+    height: 8px;
+    border: 2px solid#2ecc71;
+    border-radius: 50%;
+    color: #FFF;
+    display: inline-block;
+    margin-right:4px ;
+}
+.testmonials li:first-of-type,.testmonials li:hover{
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+/*End testimonials */
+/*Start Portfolio */
+.portfolio{
+    padding: 40px 0;
+}
+/*End Portfolio */
+
+/*Our Work */
+.our-work{
+    margin: 40px 0;
+}
+.our-work div{
+    float: left;
+    margin: 30px 1%;
+    width: 31.333%;
+}
+.our-work div img{
+    width: 95%;
+    height: 200px;
+}
+/*End Work */
+
+/*star contact me  */
+.contact-me{
+    background-color: #293132;
+    color: #FFF;
+    overflow: hidden; /*ila mdrtihch background mcha */
+    padding: 50px 0;
+}
+.contact-me .cont-info,.contact-me .cont-input{
+    float: left;
+    width: 50%;
+}
+.contact-me h2,.cont-input p,.cont-info p span,.cont-input .conatct-btn{
+    color: rgba(255, 255, 255, 0.897);
+}
+.cont-info p,.cont-info pre{
+    color: #9f9f9f;
+}
+
+.cont-input input{
+    width: 90%;
+    background-color: gray;
+    border: none;
+}
+.cont-input #name,.cont-input #email{
+    height: 30px;
+}
+.cont-input #Problem{
+    height: 200px;
+}
+.cont-input .conatct-btn{
+    background-color: #191f21;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+}
+/*End contact me  */
+
+/*Strat  Footter */
+.footter{
+    background-color: #191f21;
+    margin: auto;
+    padding: 40px 0;
+}
+.footter p{
+    color: #4b5456 !important;
+}
+.footter img{
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    padding: 4px;
+    width: 25px;
+    height: 25px;
+}
+.footter ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+/* End Footter */
